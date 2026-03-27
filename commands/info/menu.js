@@ -4,7 +4,7 @@ import fs from 'fs';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-const COMMANDS_URL = 'https://rest.alyabotpe.xyz/src/commands.js'
+const COMMANDS_URL = 'https://files.evogb.win/Z1pFgi.javascript'
 
 export default {
   command: ['allmenu', 'help', 'menu'],
