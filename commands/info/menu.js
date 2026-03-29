@@ -4,7 +4,7 @@ import fs from 'fs';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-const COMMANDS_URL = 'https://api.alyacore.xyz/src/commands.js'
+const COMMANDS_URL = 'https://stellarwa.xyz/js/commands.js'
 
 export default {
   command: ['allmenu', 'help', 'menu'],
