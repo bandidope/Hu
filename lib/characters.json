@@ -1,4 +1,4 @@
-[
+    [
   {
     "name": "Senko San",
     "value": 45000,
@@ -1724,5 +1724,11 @@
      "gender": "Mujer",
      "source": "Miraculous Ladybug",
      "keyword": "chat_noir"
-  }
-]
+  },
+  {
+     "name": "Juliet Persia",
+     "value": "300",
+     "gender": "Mujer",
+     "source": "Kishuku Gakkou no Juliet",
+     "keyword": "juliet_persia"
+] 
