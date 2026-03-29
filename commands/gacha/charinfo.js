@@ -2,7 +2,26 @@ import { promises as fs } from 'fs';
 import fetch from 'node-fetch'
 
 const obtenerImagenGelbooru = async (keyword, name) => {
-  const extensionesImagen = /\.(jpg|jpeg|png)$/i;
+  const extensionesImagen = /\.(jpg|jpeg|png|webp)$/i;
+
+  try {
+    const urlDanbooru = `https://api.stellarwa.xyz/nsfw/danbooru?keyword=${keyword}`;
+    const resDanbooru = await fetch(urlDanbooru);
+    if (!resDanbooru.ok) throw new Error(`Danbooru HTTP ${resDanbooru.status}`);
+    const dataDanbooru = await resDanbooru.json();
+
+    if (dataDanbooru?.status === true && Array.isArray(dataDanbooru.results)) {
+      const imagenesValidas = dataDanbooru.results.filter(img =>
+        typeof img === 'string' && extensionesImagen.test(img)
+      );
+
+      if (imagenesValidas?.length) {
+        return imagenesValidas[Math.floor(Math.random() * imagenesValidas.length)];
+      }
+    }
+  } catch (err) {
+    console.error('Error en Danbooru (StellarWa):', err.message);
+  }
 
   try {
     const urlDelirius = `https://api.delirius.store/search/gelbooru?query=${keyword}`;
@@ -10,7 +29,7 @@ const obtenerImagenGelbooru = async (keyword, name) => {
     if (!res.ok) throw new Error(`Delirius HTTP ${res.status}`);
     const data = await res.json();
 
-    const imagenesValidas = data?.data?.filter(item => 
+    const imagenesValidas = data?.data?.filter(item =>
       typeof item?.image === 'string' && extensionesImagen.test(item.image)
     );
 
@@ -28,7 +47,7 @@ const obtenerImagenGelbooru = async (keyword, name) => {
     const dataPinterest = await resPinterest.json();
 
     if (dataPinterest?.status !== true) throw new Error("Respuesta no exitosa de Pinterest");
-    const imagenesValidas = dataPinterest?.data?.filter(item => 
+    const imagenesValidas = dataPinterest?.data?.filter(item =>
       typeof item?.hd === 'string' && extensionesImagen.test(item.hd)
     );
 
