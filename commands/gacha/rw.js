@@ -2,73 +2,26 @@ import fs from 'fs';
 import {v4 as uuidv4} from 'uuid';
 import fetch from 'node-fetch';
 
-const obtenerImagenGelbooru = async (keyword, name) => {
-  const extensionesImagen = /\.(jpg|jpeg|png|webp)$/i;
+const obtenerImagen = async (keyword) => {
+  const endpoints = ["gelbooru", "safebooru", "danbooru"];
 
-  try {
-    const urlDanbooru = `https://api.stellarwa.xyz/nsfw/danbooru?keyword=${keyword}`;
-    const resDanbooru = await fetch(urlDanbooru);
-    if (!resDanbooru.ok) throw new Error(`Danbooru HTTP ${resDanbooru.status}`);
-    const dataDanbooru = await resDanbooru.json();
+  for (const endpoint of endpoints) {
+    try {
+      const url = `${api.url2}/nsfw/${endpoint}?keyword=${keyword}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`${endpoint} HTTP ${res.status}`);
 
-    if (dataDanbooru?.status === true && Array.isArray(dataDanbooru.results)) {
-      const imagenesValidas = dataDanbooru.results.filter(img =>
-        typeof img === 'string' && extensionesImagen.test(img)
-      );
+      const buffer = await res.arrayBuffer();
 
-      if (imagenesValidas?.length) {
-        return imagenesValidas[Math.floor(Math.random() * imagenesValidas.length)];
+      if (buffer.byteLength > 0) {
+        return Buffer.from(buffer);
       }
+    } catch (err) {
+      console.error(`Error en ${endpoint}:`, err.message);
     }
-  } catch (err) {
-    console.error('Error en Danbooru (StellarWa):', err.message);
   }
 
-  try {
-    const urlDelirius = `https://api.delirius.store/search/gelbooru?query=${keyword}`;
-    const res = await fetch(urlDelirius);
-    if (!res.ok) throw new Error(`Delirius HTTP ${res.status}`);
-    const data = await res.json();
-
-    const imagenesValidas = data?.data?.filter(item =>
-      typeof item?.image === 'string' && extensionesImagen.test(item.image)
-    );
-
-    if (imagenesValidas?.length) {
-      return imagenesValidas[Math.floor(Math.random() * imagenesValidas.length)].image;
-    }
-  } catch (err) {
-    console.error('Error en Gelbooru (Delirius):', err.message);
-  }
-
-  try {
-    const urlPinterest = `${api.url}/search/pinterest?query=${name}-Anime&key=${api.key}`;
-    const resPinterest = await fetch(urlPinterest);
-    if (!resPinterest.ok) throw new Error(`Pinterest HTTP ${resPinterest.status}`);
-    const dataPinterest = await resPinterest.json();
-
-    if (dataPinterest?.status !== true) throw new Error("Respuesta no exitosa de Pinterest");
-    const imagenesValidas = dataPinterest?.data?.filter(item =>
-      typeof item?.hd === 'string' && extensionesImagen.test(item.hd)
-    );
-
-    if (imagenesValidas?.length) {
-      return imagenesValidas[Math.floor(Math.random() * imagenesValidas.length)].hd;
-    }
-  } catch (err) {
-    console.error('Error en Pinterest (StellarWa):', err.message);
-  }
-
-  try {
-    const urlStellar = `${api.url}/search/googleimagen?query=${name}-Anime`;
-    const resStellar = await fetch(urlStellar);
-    if (!resStellar.ok) throw new Error(`StellarWa HTTP ${resStellar.status}`);
-    const buffer = await resStellar.buffer();
-    return buffer;
-  } catch (err) {
-    console.error('Error en Google Imágenes (StellarWa):', err.message);
-    return null;
-  }
+  return null;
 };
 
 const obtenerPersonajes = () => {
@@ -155,18 +108,19 @@ export default {
 
 ${dev}`
 
-const imagen = await obtenerImagenGelbooru(personaje.keyword, personaje.name)
+const imagen = await obtenerImagen(personaje.keyword, personaje.name);
 
 if (!imagen) {
-  return m.reply(`🌽 No se pudo obtener una imagen para *${personaje.name}*.`)
+  return m.reply(`✎ No se pudo obtener una imagen para *${personaje.name}*.`);
 }
 
-const payload =
-  typeof imagen === 'string'
-    ? { image: { url: imagen }, caption: mensaje, mimetype: 'image/jpeg' }
-    : { image: imagen, caption: mensaje, mimetype: 'image/jpeg' }
+const payload = {
+  image: imagen,
+  caption: mensaje,
+  mimetype: 'image/jpeg'
+};
 
-await client.sendMessage(chatId, payload, { quoted: m })
+await client.sendMessage(m.chat, payload, { quoted: m });
 
       if (!poseedor) {
         reservarPersonaje(
