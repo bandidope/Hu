@@ -84,7 +84,7 @@ if (!imagen) {
 
 const payload = {
   image: imagen,
-  caption: mensaje,
+  caption: message,
   mimetype: 'image/jpeg'
 };
 
