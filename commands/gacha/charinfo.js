@@ -76,10 +76,10 @@ export default {
 
 ${dev}`
 
-const imagen = await obtenerImagen(personaje.keyword, personaje.name);
+const imagen = await obtenerImagen(character.keyword, character.name);
 
 if (!imagen) {
-  return m.reply(`✎ No se pudo obtener una imagen para *${personaje.name}*.`);
+  return m.reply(`✎ No se pudo obtener una imagen para *${character.name}*.`);
 }
 
 const payload = {
