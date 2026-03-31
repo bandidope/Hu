@@ -91,7 +91,7 @@ const payload = {
 await client.sendMessage(chatId, payload, { quoted: m });
 
     } catch (error) {
-      await m.reply(msgglobal)
+      await m.reply(msgglobal + error)
     }
   },
 };
