@@ -22,7 +22,7 @@ export default {
       return m.reply(`🫛 Estos comandos estan desactivados en este grupo.`)
 
     const user = chatData.users[m.sender]
-    const cooldown = 1 * 60 * 1000
+    const cooldown = 5 * 60 * 1000
     const now = Date.now()
     const remaining = (user.rtCooldown || 0) - now
     const currency = botSettings.currency || 'Monedas'
@@ -50,7 +50,7 @@ export default {
     const resultColor = validColors[Math.floor(Math.random() * validColors.length)]
 
     if (resultColor === color) {
-      const reward = amount * (resultColor === 'green' ? 25 : 2)
+      const reward = amount * (resultColor === 'green' ? 14 : 2)
       user.coins += reward
       await client.reply(
         chatId,
