@@ -50,7 +50,7 @@ export default {
     const resultColor = validColors[Math.floor(Math.random() * validColors.length)]
 
     if (resultColor === color) {
-      const reward = amount * (resultColor === 'green' ? 14 : 2)
+      const reward = amount * (resultColor === 'green' ? 25 : 2)
       user.coins += reward
       await client.reply(
         chatId,
