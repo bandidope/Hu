@@ -138,7 +138,7 @@ await client.sendMessage(m.chat, payload, { quoted: m });
       }
     } catch (e) {
       user.rwCooldown = 0
-      return m.reply(msgglobal)
+      return m.reply(msgglobal + e)
     }
   },
 };
