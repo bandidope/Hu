@@ -1759,5 +1759,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "shiranui_genma"
+  },
+  {
+    "name": "Aoba Yamashiro",
+    "value": 582489,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "yamashiro_aoba"
   }
 ]
