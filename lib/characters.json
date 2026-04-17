@@ -1766,5 +1766,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "yamashiro_aoba"
+  },
+  {
+    "name": "Ibiki Morino",
+    "value": 948944,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "morino_ibiki"
   }
 ]
