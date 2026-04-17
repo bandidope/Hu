@@ -1773,5 +1773,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "morino_ibiki"
+  },
+  {
+    "name": "Shizune",
+    "value": 322406,
+    "gender": "Mujer",
+    "source": "Naruto",
+    "keyword": "shizune"
   }
 ]
