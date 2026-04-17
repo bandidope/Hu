@@ -11,7 +11,7 @@ global.version = '^2.0'
 global.api = {
   url: 'https://api.evogb.org',
   url2: 'https://api.stellarwa.xyz',
-  url3: 'https://sylphy.xyz',
+  url3: 'https://sylphyy.xyz',
   key: '', // api.evogb.org
   key2: '', // api.stellarwa.xyz
   key3: '' // sylphy.xyz
