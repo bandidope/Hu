@@ -1738,5 +1738,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "higashikata_josuke"
+  },
+  {
+    "name": "Deidara",
+    "value": 219274,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "deidara"
   }
 ]
