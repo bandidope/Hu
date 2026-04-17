@@ -1787,5 +1787,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "uchiha_shisui"
+  },
+  {
+    "name": "Fugaku Uchiha",
+    "value": 601611,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "uchiha_fugaku"
   }
 ]
