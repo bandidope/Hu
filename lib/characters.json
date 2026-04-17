@@ -1,4 +1,4 @@
-    [
+[
   {
     "name": "Senko San",
     "value": 45000,
@@ -1646,90 +1646,97 @@
     "value": "2500",
     "gender": "Mujer",
     "source": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
-    "keyword": "shiina_mahiru_(otonari_no_tenshi-sama)" 
+    "keyword": "shiina_mahiru_(otonari_no_tenshi-sama)"
   },
   {
     "name": "Sylpha Langlis",
     "value": "2000",
     "gender": "Mujer",
     "source": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
-    "keyword": "sylpha_(dai_nana_oji)" 
+    "keyword": "sylpha_(dai_nana_oji)"
   },
   {
-     "name": "Tina Sprout",
-     "value": "4000",
-     "gender": "Mujer",
-     "source": "Black Bullet",
-     "keyword": "tina_sprout" 
+    "name": "Tina Sprout",
+    "value": "4000",
+    "gender": "Mujer",
+    "source": "Black Bullet",
+    "keyword": "tina_sprout"
   },
   {
-     "name": "Ahiara Enju",
-     "value": "1000",
-     "gender": "Mujer",
-     "source": "Black Bullet",
-     "keyword": "aihara_enju" 
+    "name": "Ahiara Enju",
+    "value": "1000",
+    "gender": "Mujer",
+    "source": "Black Bullet",
+    "keyword": "aihara_enju"
   },
   {
     "name": "Nagisa Kubo",
     "value": "850",
     "gender": "Mujer",
     "source": "Kubo-san wa Mob wo Yurusanai",
-    "keyword": "kubo_nagisa" 
+    "keyword": "kubo_nagisa"
   },
   {
-     "name": "Latifa Fleuranza",
-     "value": "2000",
-     "gender": "Mujer",
-     "source": "Amagami Brilliant Park",
-     "keyword": "latifa_fleuranza" 
+    "name": "Latifa Fleuranza",
+    "value": "2000",
+    "gender": "Mujer",
+    "source": "Amagami Brilliant Park",
+    "keyword": "latifa_fleuranza"
   },
   {
-     "name": "Son goku",
-     "value": "5000",
-     "gender": "Hombre",
-     "source": "Dragon Ball",
-     "keyword": "goku" 
+    "name": "Son goku",
+    "value": "5000",
+    "gender": "Hombre",
+    "source": "Dragon Ball",
+    "keyword": "goku"
   },
   {
-     "name": "Anya Forger",
-     "value": "3500",
-     "gender": "Mujer",
-     "source": "Spy x Family",
-     "keyword": "anya_(spy_x_family)"
+    "name": "Anya Forger",
+    "value": "3500",
+    "gender": "Mujer",
+    "source": "Spy x Family",
+    "keyword": "anya_(spy_x_family)"
   },
   {
-     "name": "Loid Forger",
-     "value": "1000",
-     "gender": "Hombre",
-     "source": "Spy x Family",
-     "keyword": "loid_forger"
-  },
-  { 
-     "name": "Yor Forger",
-     "value": "5000",
-     "gender": "Mujer",
-     "source": "Spy x Family",
-     "keyword": "yor_forger"
+    "name": "Loid Forger",
+    "value": "1000",
+    "gender": "Hombre",
+    "source": "Spy x Family",
+    "keyword": "loid_forger"
   },
   {
-     "name": "Ladybug",
-     "value": "2500",
-     "gender": "Mujer",
-     "source": "Miraculous Ladybug",
-     "keyword": "ladybug_(miraculous_ladybug)"
+    "name": "Yor Forger",
+    "value": "5000",
+    "gender": "Mujer",
+    "source": "Spy x Family",
+    "keyword": "yor_forger"
+  },
+  {
+    "name": "Ladybug",
+    "value": "2500",
+    "gender": "Mujer",
+    "source": "Miraculous Ladybug",
+    "keyword": "ladybug_(miraculous_ladybug)"
   },
   {
     "name": "Cat Noir",
-     "value": "1500",
-     "gender": "Mujer",
-     "source": "Miraculous Ladybug",
-     "keyword": "chat_noir"
+    "value": "1500",
+    "gender": "Mujer",
+    "source": "Miraculous Ladybug",
+    "keyword": "chat_noir"
   },
   {
-     "name": "Juliet Persia",
-     "value": "300",
-     "gender": "Mujer",
-     "source": "Kishuku Gakkou no Juliet",
-     "keyword": "juliet_persia"
+    "name": "Juliet Persia",
+    "value": "300",
+    "gender": "Mujer",
+    "source": "Kishuku Gakkou no Juliet",
+    "keyword": "juliet_persia"
+  },
+  {
+    "name": "Josuke Higashikata",
+    "value": 79575,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "higashikata_josuke"
   }
-] 
+]
