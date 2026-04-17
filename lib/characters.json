@@ -1780,5 +1780,12 @@
     "gender": "Mujer",
     "source": "Naruto",
     "keyword": "shizune"
+  },
+  {
+    "name": "Shisui Uchiha",
+    "value": 299651,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "uchiha_shisui"
   }
 ]
