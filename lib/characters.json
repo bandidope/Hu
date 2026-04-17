@@ -1745,5 +1745,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "deidara"
+  },
+  {
+    "name": "Ebisu",
+    "value": 335441,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "ebisu"
   }
 ]
