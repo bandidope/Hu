@@ -1752,5 +1752,12 @@
     "gender": "Hombre",
     "source": "Naruto",
     "keyword": "ebisu"
+  },
+  {
+    "name": "Genma Shiranui",
+    "value": 820240,
+    "gender": "Hombre",
+    "source": "Naruto",
+    "keyword": "shiranui_genma"
   }
 ]
