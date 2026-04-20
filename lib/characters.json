@@ -1829,5 +1829,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "diavolo"
+  },
+  {
+    "name": "Funny Valentine",
+    "value": 411188,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "funny_valentine"
   }
 ]
