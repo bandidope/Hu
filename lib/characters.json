@@ -1850,5 +1850,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "whitesnake_(stand)"
+  },
+  {
+    "name": "C-Moon",
+    "value": 380203,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "c-moon_(stand)"
   }
 ]
