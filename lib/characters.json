@@ -1801,5 +1801,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "kakyoin_noriaki"
+  },
+  {
+    "name": "Koichi Hirose",
+    "value": 334914,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "hirose_koichi"
   }
 ]
