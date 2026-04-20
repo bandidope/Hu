@@ -1808,5 +1808,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "hirose_koichi"
+  },
+  {
+    "name": "Kars",
+    "value": 581698,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "kars_(jojo)"
   }
 ]
