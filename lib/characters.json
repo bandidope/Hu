@@ -1822,5 +1822,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "kira_yoshikage"
+  },
+  {
+    "name": "Diavolo",
+    "value": 320378,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "diavolo"
   }
 ]
