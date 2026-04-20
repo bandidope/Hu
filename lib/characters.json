@@ -1815,5 +1815,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "kars_(jojo)"
+  },
+  {
+    "name": "Yoshikage Kira",
+    "value": 111938,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "kira_yoshikage"
   }
 ]
