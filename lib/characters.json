@@ -1885,5 +1885,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "hol_horse"
+  },
+  {
+    "name": "Vanilla Ice",
+    "value": 396627,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "vanilla_ice"
   }
 ]
