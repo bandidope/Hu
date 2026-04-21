@@ -1906,5 +1906,12 @@
     "gender": "Mujer",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "yamagishi_yukako"
+  },
+  {
+    "name": "Akira Otoishi",
+    "value": 848847,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "otoishi_akira"
   }
 ]
