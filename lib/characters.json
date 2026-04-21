@@ -2067,5 +2067,12 @@
     "gender": "Hombre",
     "source": "Invincible",
     "keyword": "rex_splode_(invincible)"
+  },
+  {
+    "name": "Dupli Kate",
+    "value": 991892,
+    "gender": "Mujer",
+    "source": "Invincible",
+    "keyword": "dupli_kate"
   }
 ]
