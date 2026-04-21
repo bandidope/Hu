@@ -2060,5 +2060,12 @@
     "gender": "Hombre",
     "source": "Invincible",
     "keyword": "robot_(invincible)"
+  },
+  {
+    "name": "Rex Sloan",
+    "value": 444030,
+    "gender": "Hombre",
+    "source": "Invincible",
+    "keyword": "rex_splode_(invincible)"
   }
 ]
