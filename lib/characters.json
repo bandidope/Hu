@@ -1983,5 +1983,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "johnny_joestar"
+  },
+  {
+    "name": "Gyro Zeppeli",
+    "value": 242504,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "gyro_zeppeli"
   }
 ]
