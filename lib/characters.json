@@ -1878,5 +1878,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "wonder_of_u_(stand)"
+  },
+  {
+    "name": "Hol Horse",
+    "value": 499569,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "hol_horse"
   }
 ]
