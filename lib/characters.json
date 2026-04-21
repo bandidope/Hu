@@ -1962,5 +1962,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "narciso_anasui"
+  },
+  {
+    "name": "Ermes Costello",
+    "value": 321560,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "ermes_costello"
   }
 ]
