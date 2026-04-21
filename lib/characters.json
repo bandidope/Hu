@@ -2025,5 +2025,12 @@
     "gender": "Hombre",
     "source": "Invincible",
     "keyword": "mark_grayson"
+  },
+  {
+    "name": "Nolan Grayson",
+    "value": 80586,
+    "gender": "Hombre",
+    "source": "Invincible",
+    "keyword": "nolan_grayson"
   }
 ]
