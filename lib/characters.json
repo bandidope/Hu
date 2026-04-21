@@ -2032,5 +2032,12 @@
     "gender": "Hombre",
     "source": "Invincible",
     "keyword": "nolan_grayson"
+  },
+  {
+    "name": "Debbie Grayson",
+    "value": 389930,
+    "gender": "Mujer",
+    "source": "Invincible",
+    "keyword": "debbie_grayson"
   }
 ]
