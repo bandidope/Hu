@@ -2018,5 +2018,12 @@
     "gender": "Mujer",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "hirose_yasuho"
+  },
+  {
+    "name": "Mark Grayson",
+    "value": 762680,
+    "gender": "Hombre",
+    "source": "Invincible",
+    "keyword": "mark_grayson"
   }
 ]
