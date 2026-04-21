@@ -1913,5 +1913,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "otoishi_akira"
+  },
+  {
+    "name": "Leone Abbacchio",
+    "value": 74872,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "leone_abbacchio"
   }
 ]
