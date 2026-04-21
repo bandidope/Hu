@@ -1920,5 +1920,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "leone_abbacchio"
+  },
+  {
+    "name": "Guido Mista",
+    "value": 47635,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "guido_mista"
   }
 ]
