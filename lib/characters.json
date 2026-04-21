@@ -1941,5 +1941,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "pannacotta_fugo"
+  },
+  {
+    "name": "Trish Una",
+    "value": 933568,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "trish_una"
   }
 ]
