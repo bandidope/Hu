@@ -1969,5 +1969,12 @@
     "gender": "Mujer",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "ermes_costello"
+  },
+  {
+    "name": "FF",
+    "value": 262589,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "foo_fighters_(jojo)"
   }
 ]
