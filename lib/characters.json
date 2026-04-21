@@ -2053,5 +2053,12 @@
     "gender": "Hombre",
     "source": "Invincible",
     "keyword": "cecil_stedman"
+  },
+  {
+    "name": "Rudy Connors",
+    "value": 212610,
+    "gender": "Hombre",
+    "source": "Invincible",
+    "keyword": "robot_(invincible)"
   }
 ]
