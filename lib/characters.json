@@ -1927,5 +1927,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "guido_mista"
+  },
+  {
+    "name": "Narancia Ghirga",
+    "value": 338272,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "narancia_ghirga"
   }
 ]
