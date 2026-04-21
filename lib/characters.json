@@ -2011,5 +2011,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "diego_brando"
+  },
+  {
+    "name": "Yasuho Hirose",
+    "value": 440775,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "hirose_yasuho"
   }
 ]
