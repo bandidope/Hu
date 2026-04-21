@@ -1976,5 +1976,12 @@
     "gender": "Mujer",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "foo_fighters_(jojo)"
+  },
+  {
+    "name": "Johnny Joestar",
+    "value": 768410,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "johnny_joestar"
   }
 ]
