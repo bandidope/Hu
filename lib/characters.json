@@ -2074,5 +2074,12 @@
     "gender": "Mujer",
     "source": "Invincible",
     "keyword": "dupli_kate"
+  },
+  {
+    "name": "Amanda",
+    "value": 343389,
+    "gender": "Mujer",
+    "source": "Invincible",
+    "keyword": "amanda_(invincible)"
   }
 ]
