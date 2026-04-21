@@ -1990,5 +1990,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "gyro_zeppeli"
+  },
+  {
+    "name": "Lucy Steel",
+    "value": 888666,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "lucy_steel"
   }
 ]
