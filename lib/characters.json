@@ -1899,5 +1899,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "okuyasu_nijimura"
+  },
+  {
+    "name": "Yukako Yamagishi",
+    "value": 954847,
+    "gender": "Mujer",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "yamagishi_yukako"
   }
 ]
