@@ -1955,5 +1955,12 @@
     "gender": "Hombre",
     "source": "JoJo's Bizarre Adventure",
     "keyword": "weather_report"
+  },
+  {
+    "name": "Narciso Anasui",
+    "value": 119424,
+    "gender": "Hombre",
+    "source": "JoJo's Bizarre Adventure",
+    "keyword": "narciso_anasui"
   }
 ]
