@@ -2046,5 +2046,12 @@
     "gender": "Mujer",
     "source": "Invincible",
     "keyword": "samantha_eve_wilkins"
+  },
+  {
+    "name": "Cecil Stedman",
+    "value": 976642,
+    "gender": "Hombre",
+    "source": "Invincible",
+    "keyword": "cecil_stedman"
   }
 ]
