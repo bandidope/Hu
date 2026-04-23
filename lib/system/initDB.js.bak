@@ -6,15 +6,15 @@ function initDB(m, client) {
   const settings = global.db.data.settings[jid] ||= {}
   settings.self ??= false
   settings.prefijo ??= ['/', '.', '!', '#',]
-  settings.id ??= '120363419947391620@newsletter'
-  settings.nameid ??= '✦͙͙͙*͙*❥⃝∗⁎.ʚ Whois Sex ɞ.⁎∗❥⃝**͙✦͙͙͙'
+  settings.id ??= '120363425434939442@newsletter'
+  settings.nameid ??= '✦͙͙͙*͙*❥⃝∗⁎.ʚ ʰᵘᵗᵃᵒ-ᵖʳᵒʸᵉᶜᵗ ɞ.⁎∗❥⃝**͙✦͙͙͙'
   settings.link ??= 'https://api.stellarwa.xyz'
   settings.banner ??= 'https://raw.githubusercontent.com/CheirZ/Repo-img/refs/heads/main/Furina-proyect/1767585523669.jpg'
   settings.icon ??= 'https://raw.githubusercontent.com/CheirZ/Repo-img/refs/heads/main/Furina-proyect/1766201596136.jpg'
   settings.currency ??= 'moras'
-  settings.namebot ??= 'Whois Sex Bot'
-  settings.namebot2 ??= 'Whois.Bot'
-  settings.owner ??= 'Whois⁴'
+  settings.namebot ??= 'ɦʊȶǟօ-քʀօʏɛƈȶ'
+  settings.namebot2 ??= 'HuTao'
+  settings.owner ??= 'Xi_miguelon77xx'
   settings.canal ??= 'https://whatsapp.com/channel/0029VbCd1xa9xVJZ1Gdq8k0V'
 
   const user = global.db.data.users[m.sender] ||= {}
