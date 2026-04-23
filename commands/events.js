@@ -65,7 +65,7 @@ export default async (client, m) => {
 ┊  *Usuario ›* @${phone}
 ┊  *Grupo ›* ${metadata.subject || ''}
 ┊┈─────̇─̇─̇─────◯◝
-┊➤ *Usa /menu para ver los comandos.*
+┊➤ *Usa .menu para ver los comandos.*
 ┊➤ *Ahora somos ${memberCount} miembros.*
 ┊ ︿︿︿︿︿︿︿︿︿︿︿
 ╰─────────────────╯`

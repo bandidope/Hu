@@ -1,9 +1,9 @@
 const linkRegex = /(https?:\/\/)?(chat\.whatsapp\.com\/[0-9A-Za-z]{20,24}|whatsapp\.com\/channel\/[0-9A-Za-z]{20,24})/i
 
 const allowedLinks = [
-  'https://whatsapp.com/channel/0029VbApwZ9ISTkEBb6ttS3F',
-  'https://whatsapp.com/channel/0029Vb6IdnEGU3BTahqaLL2V',
-  'https://chat.whatsapp.com/JL3lRO1Fx3sFVEfUDnMrul?mode=ems_copy_t'
+  'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m',
+  'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m',
+  'https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=gi_t'
 ]
 
 const joinCommands = [
